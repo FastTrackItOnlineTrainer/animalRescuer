@@ -10,4 +10,7 @@ public class Food {
     boolean inStock;
     LocalDateTime expiryDate;
 
+    public Food(String name) {
+        this.name = name;
+    }
 }
