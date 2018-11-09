@@ -34,6 +34,8 @@ public class App {
         game.setAnimal(animal);
         game.setMedic(medic);
 
+        game.start();
+
         rescuer.feed(animal, food);
         rescuer.entertain(animal, activity);
 
